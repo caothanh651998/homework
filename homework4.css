@@ -1,0 +1,170 @@
+.container{
+	width: 1020px;
+	height: 600px;
+	background: #778899;
+	margin: 0 auto;
+}
+.container .home1{
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 35%;
+	height: 400px;
+	background: white;
+	float: left;
+	margin: 50px 50px;
+}
+.home1 .title1{
+	float: left;
+	margin: 0;
+	padding: 0;
+	display: block;
+	width: 100%;
+	height: 50px;
+	background:#7FFF00;
+}
+.title1 h3{
+	display: block;
+	margin: 0;
+	padding: 0;
+	line-height: 50px;
+	float: left;
+	margin-left: 10px;
+	color: white;
+	width: 70%;
+}
+.title1 img{
+	width: 40px;
+	height: 40px;
+	margin-top: 5px;
+}
+.home1 .register1{
+	width: 100%;
+}
+.register1 label{
+	display: block;
+	width: 100%;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.register1 input{
+	width: 94%;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	background: #DCDCDC;
+	border: 0;
+}
+.register1 input:focus{
+	color: #7FFF00;
+	background: #DCDCDC;
+}
+.register1 .message{
+	margin-left: 10px;
+	width: 92%;
+	height: 70px;
+	border-radius: 5px;
+}
+.register1 .message:focus{
+	color: #7FFF00;
+	background: #DCDCDC;
+}
+.register1 input.cancel{
+	margin-top: 25px;
+	width: 25%;
+	float: left;
+}
+.register1 input.send{
+	margin-top: 25px;
+	width: 35%;
+	float: right;
+	margin-right: 13px;
+	background: #7FFF00;
+}
+.container .home2{
+	width: 35%;
+	height: 450px;
+	background: white;
+	float: left;
+	margin: 50px 50px;
+}
+.home2 h3{
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+.home2 .payment{
+	width: 100%;
+	height: 100px;
+	background: green;
+}
+.payment h4{
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	line-height: 50px;
+	width: 100%;
+	height: 50px;
+}
+.payment img{
+	width: 50px;
+	height: 30px;
+	float: left;
+	margin-left: 30px;
+}
+.home2 .register2{
+	width: 100%;
+}
+.register2 label{
+	display: block;
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+.register2 input{
+	width: 90%;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 15px;
+	background: #DCDCDC;
+	border: 0;
+}
+.register2 input:focus{
+	color: #7FFF00;
+	background:  #DCDCDC;
+}
+.register2 label.expiry{
+	width: 50%;
+	float: left;
+}
+.register2 label.cvs{
+	width: 30%;
+	float: left;
+	margin-left: 40px;
+}
+.register2 input.expiry{
+	width: 50%;
+	float: left;
+	padding-left: 10px;
+}
+.register2 input.cvs{
+	width: 30%;
+	float: right;
+	margin-right: 18px;
+	padding-left: 10px;
+}
+.register2 input.submit{
+	margin: 0;
+	width: 100%;
+	margin-top: 46px;
+	background: #DAA520;
+}

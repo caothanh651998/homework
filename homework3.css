@@ -1,0 +1,114 @@
+.register{
+	width: 1020px;
+	height: 600px;
+	margin: 0 auto;
+	background: #778899;
+}
+.register .home1{
+	width: 300px;
+	height: 250px;
+	float: left;
+	background: white;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.home1 h3{
+	display: block;
+	margin: 0;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background: blue;
+	margin-bottom: 30px;
+	color: white;
+}
+.home1 input{
+	display: block;
+	margin: 0 auto;
+	width: 88%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	border-radius: 10px;
+	margin-top: 2px;
+	border: 0;
+	background: #b2b2b2;
+}
+.home1 input.submit{
+	border: 0;
+	border-radius: 5px;
+	display: block;
+	background: blue;
+	margin: 0 auto;
+	width: 95%;
+	margin-top: 20px;
+	color: white;
+}
+.home1 label{
+	width: 50%;
+	float: right;
+	margin-top: 10px;
+	color: #b2b2b2;
+}
+.register .home2{
+	width: 400px;
+	height: 250px;
+	float: left;
+	background: white;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.home2 h3{
+	margin: 0;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	background: blue;	
+	margin-top: 10px;
+	line-height: 30px;
+	color: white;
+}
+.home2 input{
+	width: 80%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	margin-top: 10px;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background: #b2b2b2;
+	border: 0;
+}
+.home2 input.name{
+	background-position: left 5px top 3px;
+	background-image: url('icon/l1.png');
+	background-size: 29px 29px;
+	background-repeat: no-repeat;
+}
+.home2 input.pws{
+	background-position: left 5px top 3px;
+	background-image: url('icon/lock.png');
+	background-size: 29px 29px;
+	background-repeat: no-repeat;
+}
+.home2 input.check{
+	display: block;
+	margin: 0;
+	padding: 0;
+	width:8%;
+	margin-left: 25px;
+	margin-top: 3px;
+	float: left;
+}
+.home2 input.submit1{
+	border: 0;
+	border-radius: 5px;
+	display: block;
+	background: red;
+	margin: 0 auto;
+	width: 30%;
+	margin-top: 30px;
+	color: white;
+}

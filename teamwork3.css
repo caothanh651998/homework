@@ -1,0 +1,159 @@
+.container{
+	width: 1020px;
+	height: 800px;
+	margin: 0 auto;
+}
+.step1{
+	width: 400px;
+	height: 300px;
+	float: left;
+}
+.step1 img{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-top: 18px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+ h3{
+	background: red;
+	width: 95%;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 5%;
+	border-radius: 5px;
+}
+.step1 input{
+	width: 97%;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-radius: 5px;
+	border: 1px solid #778899;
+}
+.step1 input.name{
+	background-position: right 5px top 3px;
+	background-image: url('icon/l1.png');
+	background-size: 29px 29px;
+	background-repeat: no-repeat;
+}
+.step1 input.mail{
+	background-position: right 5px top 3px;
+	background-image: url('icon/close-envelope.png');
+	background-size: 29px 29px;
+	background-repeat: no-repeat;	
+}
+.step1 input.phone{
+	background-position: right 5px top 3px;
+	background-image: url('icon/contact.png');
+	background-size: 29px 29px;
+	background-repeat: no-repeat;
+}
+.step2{
+	float: left;
+	width: 400px;
+	height: 300px;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+.step2 img{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-top: 18px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.step2 input{
+	width: 97%;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-radius: 5px;
+	border: 1px solid #778899;
+}
+.step2 input.state{
+	width: 55%;
+	float: left;
+}
+.step2 input.zip{
+	width: 35%;
+	float: left;
+	margin-left: 12px;
+}
+.step3{
+	float: left;
+	width: 400px;
+	height: 300px;
+	margin-top: 10px;
+}
+.step3 img{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-top: 18px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.step3 label.card{
+	width: 50%;
+	float: left;
+	margin-top: 10px;
+}
+.step3 label.cvv{
+	width: 35%;
+	float: left;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.step3 input.card{
+	width: 55%;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-radius: 5px;
+	border: 1px solid #778899;
+}
+.step3 input.cvv{
+	width: 35%;
+	margin-top: 10px;
+	margin-left: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-radius: 5px;
+	border: 1px solid #778899;
+}
+.step3 label.morth{
+	width: 50%;
+	float: left;
+	margin: 10px 0px;
+}
+.step3 select.morth{
+	width: 20%;
+	float: left;
+	margin-bottom: 20px;
+}
+.step3 select.year{
+	width: 20%;
+	float: left; 
+	margin-left: 120px;
+}
+.step3 .pic{
+	clear: both;
+	margin-top: 10px;
+	width: 100%;
+	height: 50px;
+}
+.pic img{
+	float: left;
+	width: 70px;
+	height: 50px;
+	margin-right: 10px;
+}
+
+

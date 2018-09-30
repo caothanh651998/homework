@@ -1,0 +1,95 @@
+.container{
+	width: 1200px;
+	height: 600px;
+	margin: 0 auto;
+}
+.container .home1{
+	width: 600px;
+	height: 600px;
+	float: left;
+	position: relative;
+	background: #DAA520;
+}
+.home1 .tron1{
+	display: block;
+	float: left;
+	margin-top: 8%;
+	margin-left: 41%;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background: yellow;
+}
+.tron1 img{
+	width: 100px;
+	height: 100px;
+}
+.home1 .register{
+	display: block;
+	width: 250px;
+	height: 300px;
+	background: gray;
+	margin: 0 auto;
+	margin-top: 100px;
+	box-shadow: 20px 20px 5px #DCDCDC;
+}
+.register h2{
+	display: block;
+	width: 100%;
+	height: 30px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	margin-top: 50px;
+}
+.register input{
+	width: 94%;
+	margin-left: 3%;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	border: 0;
+	text-align: center;
+}
+.register .submit{
+	margin-top: 20px;	
+}
+.register label{
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+.container .home2{
+	width: 600px;
+	height: 600px;
+	float: left;
+	background:#1E90FF;
+}
+.home2 .tron2{
+	display: block;
+	float: left;
+	margin-top: 4%;
+	margin-left: 18%;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background: yellow;
+}
+.tron2 img{
+	width: 50px;
+	height: 50px;
+	margin: 25px 27px;
+}
+.home2 .register{
+	display: block;
+	width: 300px;
+	height: 350px;
+	background: gray;
+	margin: 0 auto;
+	margin-top: 100px;
+	box-shadow: 20px 20px 5px #DCDCDC;
+}
